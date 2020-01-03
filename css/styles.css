@@ -223,6 +223,17 @@ footer p {
   height: 0.75rem;
   width: 0.75rem;
 }
+.resume {
+   
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("../assets/resume.png");
+    
+    height: 100%;
+    width: 100%;
+    
+  }
 
 /* Iphone */
 @media only screen and (max-width: 376px) {
@@ -230,6 +241,16 @@ footer p {
     display: block;
   }
   .contact-mobile-only {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: #314680;
+    background-color: black;
+    width: 100vw;
+    height: 80vh;
+    align-items: center;
+  }
+  .resume-mobile-only {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -255,6 +276,16 @@ footer p {
     height: 80vh;
     align-items: center;
   }
+  .resume-small-tablet-only {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: #314680;
+    background-color: black;
+    width: 100vw;
+    height: 80vh;
+    align-items: center;
+  }
 }
 
 /* ipad pro */
@@ -263,6 +294,16 @@ footer p {
     display: block;
   }
   .contact-large-tablet-only {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: #314680;
+    background-color: black;
+    width: 100vw;
+    height: 80vh;
+    align-items: center;
+  }
+  .resume-large-tablet-only {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -296,7 +337,24 @@ footer p {
   .font-size-1-5-em {
     font-size: 1, 5em;
   }
-  .resume {
-    background-image: url("/assets/resume.png");
-  }
+  .resume-desktop-only {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: #314680;
+  background-color: black;
+  width: 100vw;
+  height: 80vh;
+  align-items: center;
+}
+  .contact-desktop-only {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: #314680;
+  background-color: black;
+  width: 100vw;
+  height: 80vh;
+  align-items: center;
+}
 }
