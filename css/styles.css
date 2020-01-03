@@ -30,8 +30,7 @@ nav {
 .foo-column {
   background-color: #bec2c0;
   width: 100vw;
-  height: 20vh;
-  min-height: 20vh;
+  
 }
 .foo-column a {
   color: #314680;
